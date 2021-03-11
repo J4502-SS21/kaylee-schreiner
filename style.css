@@ -87,12 +87,21 @@ img {
   min-width: 200px;
 }
 
+.navigation {
+	display: flex;
+	flex-direction: column;
+}
 
+@media (min-width: 600px) {
+	.navigation {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
 
-@media (max-width: 600px) {
+@media (min-width: 800px) {
 
-  li {
-    width: 100%;
-    float: left;
-  }
+	.item1 {
+		margin-right: auto;
+	}
 }
