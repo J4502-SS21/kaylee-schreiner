@@ -87,21 +87,18 @@ img {
   min-width: 200px;
 }
 
+.item1, .item2, .item3 {
+  width: 100%;
+}
+
 .navigation {
 	display: flex;
 	flex-direction: column;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.navigation {
 		flex-direction: row;
 		justify-content: center;
-	}
-}
-
-@media (min-width: 800px) {
-
-	.item1 {
-		margin-right: auto;
 	}
 }
