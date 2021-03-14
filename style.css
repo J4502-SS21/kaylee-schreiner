@@ -47,12 +47,6 @@ nav a{
   font-family: "Roboto", sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 20px;
-}
-
 li {
   width: 33%;
   float:left;
@@ -94,11 +88,12 @@ img {
 .navigation {
 	display: flex;
 	flex-direction: column;
+  justify-content: space-between;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 599px) {
 	.navigation {
 		flex-direction: row;
-		justify-content: center;
+		justify-content:center;
 	}
 }
