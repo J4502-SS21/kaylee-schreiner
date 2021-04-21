@@ -114,6 +114,10 @@ ul {
     width: 90%;
   }
 
+  iframe {
+    width: 300;
+  }
+
   #menu_trigger {
     display: block;
     position: absolute;
