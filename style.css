@@ -120,7 +120,7 @@ ul {
   }
 
   .electionaudio {
-    width: 250px;
+    width: 150px;
   }
 
   .electiontext {
@@ -380,12 +380,15 @@ ol {
 
 .hermann {
   margin-bottom: 20px;
-  width: 95%;
+  margin-right: 2rem auto;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-
+.hermanninfo {
+  width: 95%;
+}
 
 .vetmed {
   border-bottom: 3px solid #1868ae;
