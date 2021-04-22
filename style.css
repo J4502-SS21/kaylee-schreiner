@@ -119,6 +119,14 @@ ul {
     width: 300px;
   }
 
+  .electionaudio {
+    width: 250px;
+  }
+
+  .hermanntext {
+    width: 200px;
+  }
+
   #menu_trigger {
     display: block;
     position: absolute;
@@ -367,6 +375,7 @@ ol {
 
 #hermannheader {
     padding-top: 40px;
+    width: 95%;
 }
 
 .hermann {
@@ -395,10 +404,12 @@ ol {
   border-bottom: 3px solid #1868ae;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 95%;
 }
 
 .pancancer {
     border-bottom: 3px solid #1868ae;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 95%;
 }
