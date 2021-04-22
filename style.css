@@ -123,7 +123,7 @@ ul {
     width: 250px;
   }
 
-  .hermanntext {
+  .electiontext {
     width: 200px;
   }
 
@@ -380,28 +380,16 @@ ol {
 
 .hermann {
   margin-bottom: 20px;
-  width: 100%;
-  display: flex;
-  max-width: 1500px;
+  width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
-  justify-content: left;
-  border-bottom: 3px solid #1868ae;
 }
 
-.hermanninfo {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  padding-right: 20px;
-}
 
-#hermannimg {
-  max-width: 600px;
-}
 
 .vetmed {
   border-bottom: 3px solid #1868ae;
+  border-top: 3px solid #1868ae;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 95%;
