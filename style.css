@@ -116,6 +116,7 @@ ul {
 
   iframe {
     display: flex;
+    width: 300px;
   }
 
   #menu_trigger {
